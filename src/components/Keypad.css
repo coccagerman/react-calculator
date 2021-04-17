@@ -5,7 +5,7 @@
 }
   
 .numbers {
-  width: 60%;
+  width: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -16,6 +16,7 @@
   width: 30%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr
 }
 
 .btn, .num, .operator, .action {
@@ -45,14 +46,22 @@
   height: 5.15rem;
 }
 
-@media screen and (max-width: 1300px) {
-  .numbers {width: 60%;}
+@media screen and (max-width: 1000px) {
+  .keyPad {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 0px;
+  }
+
+  .numbers {width: 50%;}
   .operators {width: 40%;}
 
-  .btn {
-    font-size: 1.5rem;
-    min-width: 2.5rem;
-    height: 4rem;
-    margin: .15rem;
-}
+  .rightSide-btn{
+    height: 5.1rem;
+  }
+
+  .btn, .num, .operator, .action {
+    font-size: 2.25rem;
+    margin: .05rem;
+  }
 }

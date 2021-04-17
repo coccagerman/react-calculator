@@ -66,7 +66,7 @@ function Calculator () {
 
             else if (className === 'num' && input === '0') {
                 setInput(pressedBtn)
-            } else if ((className === 'operator') || (className === 'num' && input !== '0')) {
+            } else if ((className === 'operator' || className === 'operator rightSide-btn') || (className === 'num' && input !== '0')) {
                 setInput(input + pressedBtn)
             } else if (pressedBtn === 'AC') {
                 setInput('0')

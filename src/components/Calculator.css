@@ -1,7 +1,7 @@
 .calculator {
     position: relative;
     background-color: lightslategray;
-    width: 35%;
+    width: 25%;
     border-radius: 1rem;
     border: solid black 4px;
     padding: 2rem;
@@ -10,6 +10,6 @@
 
 @media screen and (max-width: 1300px) {
   .calculator {
-    width: 70%;
+    width: 75%;
   }
 }
