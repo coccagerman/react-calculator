@@ -1,0 +1,58 @@
+.keyPad {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.numbers {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+}
+
+.operators {
+  width: 30%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.btn, .num, .operator, .action {
+  font-size: 2.5rem;
+  background-color: lightgray;
+  min-width: 3.75rem;
+  height: 3.75rem;
+  margin: .25rem;
+  border: black solid;
+  border-radius: .25rem;
+  cursor: pointer; 
+  display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.btn:hover, .num:hover, .operator:hover {
+  opacity: 70%;
+}
+
+.btn:active, .num:active, .operator:active {
+  opacity: 70%;
+  border: gray solid 3px;
+}
+
+.rightSide-btn {
+  height: 5.15rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .numbers {width: 60%;}
+  .operators {width: 40%;}
+
+  .btn {
+    font-size: 1.5rem;
+    min-width: 2.5rem;
+    height: 4rem;
+    margin: .15rem;
+}
+}

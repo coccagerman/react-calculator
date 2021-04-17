@@ -1,0 +1,15 @@
+.calculator {
+    position: relative;
+    background-color: lightslategray;
+    width: 35%;
+    border-radius: 1rem;
+    border: solid black 4px;
+    padding: 2rem;
+    margin: auto;
+  }
+
+@media screen and (max-width: 1300px) {
+  .calculator {
+    width: 70%;
+  }
+}

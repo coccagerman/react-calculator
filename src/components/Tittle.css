@@ -1,0 +1,9 @@
+.darkTittle {
+    color: white;
+    transition: 1s;
+}
+
+.lightTittle {
+    color: black;
+    transition: 1s;
+}

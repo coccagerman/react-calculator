@@ -1,0 +1,13 @@
+.display {
+    background-color: lightblue;
+    border: solid black 3px;
+    height: 6rem;
+    width: 90%;
+    margin: 0 auto 2rem auto;
+    border-radius: .5rem;
+    font-size: 3rem;
+    text-align: right;
+    display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  }

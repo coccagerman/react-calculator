@@ -1,0 +1,19 @@
+.DarkMode-Btn {
+    width: 3rem;
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.DarkMode-Btn:active {
+    transform: scale(1.10);
+}
+
+@media screen and (max-width: 1300px) {
+    .DarkMode-Btn {
+        top: 1rem;
+        right: 1rem;
+    }
+}
